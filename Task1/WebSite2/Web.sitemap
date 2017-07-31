@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode>
+    
+    <siteMapNode url="~/index.aspx" title="Home Page"  description="Home page">
+    </siteMapNode>
+    <siteMapNode url="~/Register.aspx" title="Register" description="Register">    
+    </siteMapNode>
+    <siteMapNode url="~/Restricted/Documentation.aspx" title="Documentation" description="Documentation">
+    </siteMapNode>
+    <siteMapNode url="~/Restricted/Sitemap.aspx" title="site map" description="site map">
+    </siteMapNode>
+    <siteMapNode url="~/Restricted/Email.aspx" title="email" description="email">
+    </siteMapNode>
+    <siteMapNode url="~/Restricted/Calender.aspx" title="calender" description="calender">
+    </siteMapNode>
+    <siteMapNode url="~/Restricted/About.aspx" title="About" description="about">
+      <siteMapNode url="~/Restricted/History.aspx" title="Our history" description="Our history"> </siteMapNode>
+      <siteMapNode url="~/Restricted/FAQ.aspx" title="FAQ" description="FAQ"> </siteMapNode>
+    </siteMapNode>
+    
+    
+  </siteMapNode>
+</siteMap>

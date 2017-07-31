@@ -1,0 +1,30 @@
+﻿.nav {
+    padding: 15px;
+    height:30px;
+    background-color:#F5F5F5;
+    border: 1px solid #CCCCCC;
+}
+
+.dataTables_length {
+    width: 40%;
+    float: left;
+}
+
+.dataTables_filter {
+    width: 50%;
+    float:right;
+    text-align:right;
+}
+
+/*#data tbody tr.even
+{
+background-color:silver;
+}
+#data tbody tr.even:hover
+{
+background-color: #ECFFB3;
+}
+#data tbody tr.odd:hover
+{
+background-color: #ECFFB3;
+}*/

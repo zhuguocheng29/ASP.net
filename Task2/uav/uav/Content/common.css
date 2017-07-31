@@ -1,0 +1,195 @@
+﻿.contactContainer{
+    margin-left:80px;
+    margin-right:80px;
+    margin-bottom:150px;
+}
+table {border-collapse:separate;border-spacing:0;width:85%; margin-bottom:18px;}
+table,td,th { text-align:center;}
+th{padding:10px;text-transform:uppercase; background:#f7f7f7; border-bottom: 1px solid #ebebeb;}
+td{padding:10px;}
+tfoot td{border:0px;}
+th,tr:hover{}
+table {
+	border: 1px solid #ebebeb;
+	border-bottom:0;
+	text-align: left;
+	margin: 0 -1px 20px 0;
+	width: 100%;
+}
+tr th,
+thead th {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 9px 20px;
+}
+tr td {
+	border-bottom: 1px solid #ebebeb;
+	padding: 6px 20px;
+}
+tr.odd td {
+	background: #F2F7FC;
+}
+ .span1{
+     margin-top:10px;
+     border-color:lightgray;
+     border-style:solid;
+   padding-left:10px;
+   padding-right:10px;
+   /*border-radius:15px;*/
+   border-width:1px;
+ }
+ .rightC{
+     float:right;
+ }
+ .editcontainer{
+   margin-left:280px;
+   margin-right:280px;
+   width:500px;
+   margin-bottom:60px;
+ }
+ .editcontainer input[type="text"]{
+    outline: none;
+    border: 1px solid #DBDBDB;
+    padding: 10px 10px 10px 4px;
+    font-size: 14px;
+    color: #999;
+    display: block;
+    width: 85%;
+   
+    /*margin-bottom:1.5em;*/
+ }
+  .editcontainer input[type="password"]{
+    outline: none;
+    border: 1px solid #DBDBDB;
+    padding: 10px 10px 10px 4px;
+    font-size: 14px;
+    color: #999;
+    display: block;
+    width: 85%;
+    
+ }
+   .editcontainer input[type="email"]{
+    outline: none;
+    border: 1px solid #DBDBDB;
+    padding: 10px 10px 10px 4px;
+    font-size: 14px;
+    color: #999;
+    display: block;
+    width: 85%;
+     
+ }
+      .editcontainer input[type="datetime"]{
+    outline: none;
+    border: 1px solid #DBDBDB;
+    padding: 10px 10px 10px 4px;
+    font-size: 14px;
+    color: #999;
+    display: block;
+    width: 85%;
+  
+ }
+   .editcontainer  input[type="submit"]{
+	outline: none;
+    border: none;
+    padding: 0;
+    font-size: 1em;
+    color: #fff;
+    display: block;
+    width: 85%;
+    background:#FFC229;
+     margin-top:1.5em;
+}
+.editcontainer  input[type="submit"]:hover{
+	background:#d8703f;
+}
+.detailcontainer{
+    padding-left:420px;
+    width:600px;
+    margin-bottom:200px;
+}
+#uid{
+    outline: none;
+    border: 1px solid #DBDBDB;
+    padding: 10px 10px 10px 4px;
+    font-size: 14px;
+    color: #999;
+    display: block;
+    width: 85%;
+    margin-bottom:1.5em;
+}
+.contactContainer2{
+}
+.font{
+   font-weight:bold;
+   margin-top:10px;
+}
+ .searchcontainer{
+   margin-left:280px;
+   margin-right:280px;
+   width:500px;
+   margin-bottom:60px;
+ }
+ .searchcontainer input[type="text"]{
+    outline: none;
+    border: 1px solid #DBDBDB;
+    padding: 10px 10px 10px 4px;
+    font-size: 14px;
+    color: #999;
+    display: block;
+    width: 64%;
+    margin-bottom:1.5em;
+   display:inline;
+ }
+ .searchcontainer input[type="password"]{
+    outline: none;
+    border: 1px solid #DBDBDB;
+    padding: 10px 10px 10px 4px;
+    font-size: 14px;
+    color: #999;
+    display: block;
+    width: 85%;
+     margin-bottom:1.5em;
+ }
+  .searchcontainer input[type="email"]{
+    outline: none;
+    border: 1px solid #DBDBDB;
+    padding: 10px 10px 10px 4px;
+    font-size: 14px;
+    color: #999;
+    display: block;
+    width: 85%;
+    margin-bottom:1.5em;
+ }
+  .searchcontainer input[type="datetime"]{
+    outline: none;
+    border: 1px solid #DBDBDB;
+    padding: 10px 10px 10px 4px;
+    font-size: 14px;
+    color: #999;
+    display: block;
+    width: 85%;
+    margin-bottom:1.5em;
+ }
+   .searchcontainer  input[type="submit"]{
+	outline: none;
+    border: none;
+    padding: 0;
+    font-size: 1em;
+    color: #fff;
+    display: block;
+    width: 30%;
+    background:#FFC229;
+     margin-bottom:1.5em;
+     display:inline;
+     margin-left:20px;
+}
+.editcontainer  input[type="submit"]:hover{
+	background:#d8703f;
+}
+.oneline{
+  width:85%;
+}
+.bcontainer{
+    margin-bottom:20px;
+}

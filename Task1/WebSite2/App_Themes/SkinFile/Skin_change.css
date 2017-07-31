@@ -1,0 +1,10 @@
+﻿body {
+	font-family:Arial;
+	font-size:12px;
+	margin:0 auto;
+	padding:0;
+	color:#555555;
+	line-height:20px;
+	background:#f7f7f7 url(../../images/change_background.jpg) repeat;
+	background-attachment:fixed;
+}

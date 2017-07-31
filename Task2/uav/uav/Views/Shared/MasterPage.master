@@ -1,0 +1,181 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage"%>
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+<%--  <link href="../../Content/style.css" rel="stylesheet" type="text/css" />--%>
+<link href="<%: Url.Content("~/Content/style.css") %>" rel="stylesheet" type="text/css"/>
+<%--    <link href="../../Content/style1.css" rel="stylesheet" type="text/css" />--%>
+<link href="<%: Url.Content("~/Content/style1.css") %>" rel="stylesheet" type="text/css"/>
+<%--<link type="text/css" href="../../Content/skitter.styles.css" media="all" rel="stylesheet" />--%>
+
+<link href="<%: Url.Content("~/Content/skitter.styles.css") %>" rel="stylesheet" type="text/css" media="all"/>
+
+<%--<script src="../../Scripts/wow.min.js"></script>--%>
+
+<%: Scripts.Render("~/Scripts/wow.min.js") %>
+<%--<%: Scripts.Render("~/Scripts/jquery-1.6.4.min.js") %>--%>
+<%: Styles.Render("~/Content/themes/base/css") %>
+<%: Scripts.Render("~bundles/jqueryval") %>
+
+</head>
+<body>
+  <%--<form id="form1" runat="server">--%>
+        
+<div id="outer-container">
+	<div id="container">
+        <div id="top">
+        	<div id="logo"><img src ="<%: Url.Content("~/Images/logo3.png") %>" alt=""/></div><!-- end #logo -->
+            <div id="nav">
+                <ul id="topnav" class="sf-menu">
+                     <li><%: Html.ActionLink("Home", "Index", "Home") %></li>
+                        <li><%: Html.ActionLink("Users", "Index", "Users") %></li>
+                        <li><%: Html.ActionLink("Order", "Index", "Order") %></li>                                          
+                        <li><%: Html.ActionLink("Documentation", "Documentation", "Home") %></li>
+                        <li><%: Html.ActionLink("About", "About", "Home") %></li>                     
+                </ul><!-- #topnav -->
+            </div><!-- #nav -->	
+        </div>
+<%--  ceshi  --%>   
+ <%--       <link href ="../../Content/bootstrap.css" rel="stylesheet" type="text/css" media="all" />--%>
+<link href="<%: Url.Content("~/Content/bootstrap.css") %>" rel="stylesheet" type="text/css"/ media="all"/>
+ <%--      <link href="../../Content/style1.css" rel="stylesheet" type="text/css" media="all" />--%>
+<link href="<%: Url.Content("~/Content/style1.css") %>" rel="stylesheet" type="text/css"/ media="all"/>
+ <%--       <link href="../../Content/animate.min.css" rel="stylesheet"/>--%> 
+<link href="<%: Url.Content("~/Content/animate.min.css") %>" rel="stylesheet" type="text/css"/ media="all"/>
+<link href="http://fonts.useso.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel='stylesheet' type='text/css'/>
+<link href="http://fonts.useso.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic" rel='stylesheet' type='text/css'/>
+<%--<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>--%>
+    <div class="breadcrumbs">
+		<div class="container">
+			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
+				<li><asp:HyperLink NavigateUrl="~/" runat="server"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</asp:HyperLink></li>
+		<%--		<li class="active">--%> <asp:ContentPlaceHolder id="ContentPlaceHolderb" runat="server"></asp:ContentPlaceHolder><%--</li>--%>
+			</ol>
+		</div>
+	</div>
+<%-- ceshi    --%>  
+         <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+           
+    </div>
+   
+        <div id="footer">
+        <div id="footer-pattern">
+        
+			<div class="container940">
+            	<div id="footcol1">
+                    <%--<form id="form1" runat="server">--%>
+                	<ul>
+                    	<li class="widget-container">
+                            <h2 class="widget-title">Latest News</h2>
+                            <ul id="recentpostwidget">
+                                <li>
+                                    <%--<img src="../../Images/dja1.png" alt="" class="alignleft frame" />--%>
+                                    <img src ="<%: Url.Content("~/Images/dja1.png") %>" alt="" class="alignleft frame" />
+                                    <h5> <asp:HyperLink NavigateUrl="http://www.dji.com/cn/newsroom" runat="server">DJI!!</asp:HyperLink></h5>
+                                    <span>News about Da Jiang...</span>
+                                </li>
+                                <li>
+                                    <%--<img src="../../Images/dja.jpg" alt="" class="alignleft frame" />--%>
+                                    <img src ="<%: Url.Content("~/Images/dja.jpg") %>" alt="" class="alignleft frame" />
+                                    <h5><asp:HyperLink NavigateUrl="http://www.xirodrone.com/article" runat="server">Zero!!</asp:HyperLink></h5>
+                                    <span>News about Ling Du...</span>
+                                </li>
+                               
+                            </ul>
+                        </li>
+                    </ul>
+                      
+                       <%-- </form>--%>
+                </div>
+                <div id="footcol2">
+                	<ul>
+                        <li class="widget-container">
+                        	<h2 class="widget-title">Link</h2>
+                            <ul>
+                            	
+<%--                                <li><asp:HyperLink NavigateUrl="https://github.com/Emily1025" runat="server">Emily's github</asp:HyperLink></li>
+                                <li><asp:HyperLink NavigateUrl="https://github.com/zhuguocheng29" runat="server">Zhu Guocheng's github</asp:HyperLink></li>--%>
+                                <li><asp:HyperLink NavigateUrl="http://users.monash.edu.au/~sgrose/msh/disclaimer.htm" runat="server">Standard Monash course disclaimer</asp:HyperLink></li>
+                                <li><asp:HyperLink NavigateUrl="mailto:gzhu14@student.monash.edu" runat="server">Author</asp:HyperLink></li>
+                                <li><asp:HyperLink NavigateUrl="mailto:gzhu14@student.monash.edu" runat="server">Webmaster</asp:HyperLink></li>
+                                <li><%: Html.ActionLink("Acknowledgement", "Acknowledgement", "Home") %></li>
+                                <%--<asp:HyperLink NavigateUrl="<%: Url.Content("~/Views/Shared/Acknowledgement.aspx") %>" runat="server">Acknowledgement</asp:HyperLink>--%>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div id="footcol3">
+                	<ul>
+                        <li class="widget-container">
+                        	<h2 class="widget-title">Gallery</h2>
+                            <ul id="flickr">
+                            	<%--<li><a><img src="../../Images/dj1.png" alt="" class="frame" /></a></li>--%>
+                                <li><a><img src ="<%: Url.Content("~/Images/dj1.png") %>" alt="" class="frame" /></a></li>
+                               <%-- <li><a><img src="../../Images/dj2.png" alt="" class="frame" /></a></li>--%>
+                                <li><a><img src ="<%: Url.Content("~/Images/dj2.png") %>" alt="" class="frame" /></a></li>
+                                <%--<li class="nomargin"><a><img src="../../Images/dj3.png" alt="" class="frame" /></a></li>--%>
+                                <li class="nomargin"><a><img src ="<%: Url.Content("~/Images/dj3.png") %>" alt="" class="frame" /></a></li>
+                                <%--<li><a><img src="../../Images/ld1.png" alt="" class="frame" /></a></li>--%>
+                                <li><a><img src ="<%: Url.Content("~/Images/ld1.png") %>" alt="" class="frame" /></a></li>
+                                <%--<li><a><img src="../../Images/da.png" alt="" class="frame" /></a></li>--%>
+                                <li><a><img src ="<%: Url.Content("~/Images/da.png") %>" alt="" class="frame" /></a></li>
+                                <%--<li class="nomargin"><a><img src="../../Images/xm.jpg" alt="" class="frame" /></a></li>--%>
+                                <li class="nomargin"><a><img src ="<%: Url.Content("~/Images/xm.jpg") %>" alt="" class="frame" /></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div id="footcol4">
+                	<ul>
+                        <li class="widget-container">
+                        	<h2 class="widget-title">About Our Website</h2>
+                            <div class="textwidget">
+                            <p>
+                            The L&Z website is developed by Liu Hanxiao and Zhu Guocheng.
+                            </p>
+                            <span>This website is about unmanned aerial vehicle.It mainly introduces three kinds of UAV:Zero. DJI and XiaoMI </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+           
+            <div class="clear"></div><!-- clear float -->
+            </div><!-- end container940 -->
+            
+        </div><!-- end #footer-pattern -->  
+		</div><!-- end #footer -->
+        
+        <div id="after-footer">
+        	<div class="container940">
+                <div id="sn">
+                	<ul>
+                    	<li><a href="#"><img src ="<%: Url.Content("~/Images/fb.png") %>" alt="" /></a></li>
+                        <li><a href="#"><img src ="<%: Url.Content("~/Images/stumbleupon.png") %>"  alt="" /></a></li>
+                        <li><a href="#"><img src ="<%: Url.Content("~/Images/lastfm.png") %>" alt="" /></a></li>
+                        <li><a href="#"><img src ="<%: Url.Content("~/Images/twitter.png") %>" alt="" /></a></li>
+                        <li><a href="#"><img src ="<%: Url.Content("~/Images/youtube.png") %>" alt="" /></a></li>
+                    </ul>
+                </div>
+                <div id="footertext">
+                    <asp:Label ID="copyright" runat="server" SkinID="skin_label">
+                    Copyright &copy;2016 Hanxiao Liu & GuoCheng Zhu.  All Rights Reserved.</asp:Label>
+                </div>
+               <div class="clear"></div><!-- clear float -->
+            </div><!-- end container940 -->
+        </div><!-- end #after-footer -->
+   </div>
+    </div>
+<%-- </form>--%>
+</body>
+</html>

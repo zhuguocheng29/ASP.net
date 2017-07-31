@@ -1,0 +1,35 @@
+﻿.econtainer{
+
+ 
+   margin-left:100px;
+   margin-right:100px;
+  
+   padding-left:160px;
+
+}
+.ebutton{
+    margin-left:270px;
+    color:yellow;
+}
+.econtainer1{
+   margin-left:100px;
+   margin-right:100px;
+   padding-left:148px;
+  padding-bottom:50px;
+  margin-bottom:0px;
+}
+h3:before{
+	left:20%;
+}
+ h3:after{
+	right:20%;
+}
+ .span1{
+     margin-top:10px;
+     border-color:lightgray;
+     border-style:solid;
+   padding-left:10px;
+   padding-right:10px;
+   /*border-radius:15px;*/
+   border-width:1px;
+ }
